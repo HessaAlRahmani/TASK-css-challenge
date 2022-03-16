@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(39, 7, 63);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+img{
+    margin-top: 4rem;
+    max-width: 300px;
+    
+}

@@ -1,15 +1,39 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(35, 7, 56);
 }
 .container {
+  overflow: hidden;
+  position: relative;
+  background-position: center;
+
+  left: 40%;
+  top: 200px;
+  max-width: 260px;
 }
 .movie-card {
+  overflow: hidden;
+  position: relative;
+  width: 280px;
+  height: 400;
 }
 .movie-image {
+  width: 280px;
+  height: 350px;
+  z-index: -1;
+  object-fit: fit;
+  box-shadow: ;
+  
 }
 .movie-details-container {
+  color: white;
+  
+  bottom: 1rem;
+  position: absolute;
 }
 .descriptions {
+  font-weight: lighter;
+  margin-left: 1rem;
 }
 
 /*A gift from us!*/
@@ -28,4 +52,6 @@ body {
   );
 }
 .movie-title {
+  font-weight: bold;
+  
 }
