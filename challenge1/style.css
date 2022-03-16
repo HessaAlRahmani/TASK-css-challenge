@@ -1,16 +1,25 @@
 body{
     background-color: rgb(39, 7, 63);
-    font-family: 'Dancing Script', cursive;
+    color: white;
     text-align: center;
 }
 
 h1{
     font-weight: bold;
     font-family: 'Dancing Script', cursive;
+
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
 }
 
 img{
-    margin-top: 4rem;
-    max-width: 300px;
     
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.container{
+    padding: 20px;
 }
